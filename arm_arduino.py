@@ -4,14 +4,13 @@ import os
 
 #the structure of the data is: base, shoulder, elbow, wrist1, wrist2, gripper, speed 
 
-#these are the libraries to import. Use pyp install pyserial
 class ArduinoCommunictaion():
     def __init__(self):
         self.speed=9600 #baud rate for Arduino com
         self.rest=3 #delay between movements
         self.port='COM4'
 
-    #this opens the txt file that you can use with copy/past to work with Grasshopper
+    #opens text file to read arm positions
     def process_file(self, filename):
         try:
             with open(filename, 'r') as file:
