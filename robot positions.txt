@@ -1,0 +1,110 @@
+##General Positions##
+Rotate height:
+180,80,0,25,0,0,20\n
+
+Original spot:
+0,80,0,25,0,0,20\n
+
+Robot touch paper start point R1:
+120,40,0,30,0,0,20\n
+
+
+Robot touch paper start point R2:
+120,30,20,20,0,0,20\n
+
+Robot touch paper start point R3:
+120,25,40,10,0,0,20\n
+
+--------
+##Dark Orange##
+
+Dark Orange Starting Point:
+0,60,0,25,0,0,20\n
+
+Dark Orange Starting Point Press Down:
+0,50,0,25,0,0,20\n
+
+Dark Orange Ending Point Press Down:
+25,50,0,25,0,0,20\n
+
+Dark Orange Ending Point Lift Up:
+25,60,0,25,0,0,20\n
+
+-------------
+##Light Orange##
+
+Light Orange Starting Point:
+0,50,35,5,0,0,20\n 
+
+Light Orange Starting Point Press Down:
+0,30,35,5,0,0,20\n 
+
+Light Orange Ending Point Press Down:
+22,30,35,5,0,0,20\n 
+
+Light Orange Ending Point Lift Up:
+22,80,35,5,0,0,20\n 
+
+---------------
+##Dark Blue##
+
+Dark Blue Starting Point:
+35,60,0,25,0,0,20\n
+
+Dark Blue Starting Point Press Down:
+35,50,0,25,0,0,20\n
+
+Dark Blue Ending Point Press Down:
+50,50,0,25,0,0,20\n
+
+Dark Blue Return Point Press Down:
+20,50,0,25,0,0,20\n
+
+Dark Blue Ending Point Lift Up:
+50,60,0,25,0,0,20\n
+
+----------
+##Light Blue##
+
+Light Blue Starting Point:
+35,50,30,10,0,0,20\n
+
+Light Blue Starting Point Press Down:
+35,35,30,10,0,0,20\n
+
+Light Blue Ending Point Press Down:
+45,35,30,10,0,0,20\n
+
+Light Blue Return Point Press Down:
+25,40,30,10,0,0,20\n 
+
+-------
+##Dark Green##
+
+Dark Green Starting Point:
+65,60,10,20,0,0,20\n
+
+Dark Green Starting Point Press Down:
+65,45,10,20,0,0,20\n
+
+Dark Green Ending Point Press Down:
+75,50,10,20,0,0,20\n
+
+Dark Green Roll Back Point:
+50,50,10,20,0,0,20\n
+
+--------
+##Light Green##
+
+Light Green Starting Point:
+65,50,40,5,0,0,20\n
+
+Light Green Starting Point Press Down:
+65,30,40,5,0,0,20\n
+
+Light Green Ending Point Press Down:
+75,30,40,5,0,0,20\n
+
+Light Green Roll Back Point:
+50,30,40,5,0,0,20\n
+
