@@ -20,8 +20,7 @@ def main():
             topEmotions, highestEmotion = detector.get_emotions(run)
             
             print("Top emotions:" + str(topEmotions))
-            # print("this is the highest emotion" + str(highestEmotion)+ type(highestEmotion))
-            
+
             ##Extreme Cases##
             print(topEmotions.get(highestEmotion))
             if topEmotions.get(highestEmotion) >= float(95):

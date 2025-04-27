@@ -27,14 +27,11 @@ class EmotionDetector():
                     # Analyze the frame for emotion
                     result = DeepFace.analyze(frame, actions=['emotion'], enforce_detection=False)
                     emotions = result[0]['emotion']
-                    # print(type(emotions))
-                    # top_emotions = emotions[3]
                     print("Detected Emotions:", emotions)
 
                     self.focus_emotions = {"happy": emotions.get("happy"), "sad": emotions.get("sad"), "neutral": emotions.get("neutral")}
-                    # print(focus_emotions, type(focus_emotions))
 
-                    # Optional: Show top emotion on screen
+                    # Show top emotion on screen
                     self.top_emotion = max(self.focus_emotions, key=self.focus_emotions.get)
                     
                     self.last_analyzed = current_time
@@ -65,7 +62,6 @@ class EmotionDetector():
 
             if current_time - start_time > 5:
                 break
-                # self.get_emotions(run=True)
     
     def get_emotions(self, run):
         if run == True:
