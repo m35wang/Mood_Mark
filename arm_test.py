@@ -1,3 +1,7 @@
+#Braccio send and receive Arduino, by Fabio D'Agnano, including the Braccio Library  by Andrea Martino.
+#This example is in the public domain.
+
+
 import serial
 import serial.tools.list_ports
 import time

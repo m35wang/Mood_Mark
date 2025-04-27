@@ -3,15 +3,6 @@ from arm_arduino import ArduinoCommunictaion
 class ArmAction():
     def __init__(self):
         self.arduino = ArduinoCommunictaion()
-        
-    def return_origin(self):
-        #####COIME BACKK#######
-        file = 'arm_positions/####'
-        pass
-        
-    def lift_up():
-        #####COIME BACKK#######
-        pass
 
     def collect_dark_orange_stamp(self):
         file = 'arm_positions/dark_orange.txt'
@@ -49,10 +40,6 @@ class ArmAction():
         print("Moving arm to collect light green ink.")
         self.arduino.read_file_send_to_arduino(filelocation=file)
 
-    def rotate_to_paper_start_point(self):
-        #####COIME BACKK#######
-        pass
-    
     def draw_row_1(self):
         file = 'arm_positions/row_1.txt'
 

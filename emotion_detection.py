@@ -19,8 +19,6 @@ class EmotionDetector():
                 break
 
             frame = cv2.flip(frame, 1)
-            # Show video feed
-            # cv2.imshow("Webcam Feed", frame)
 
             # Every few seconds, analyze the current frame
             current_time = time.time()
